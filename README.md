@@ -8,9 +8,10 @@ Skriptet lager et stativ bestående av firkantrør (25x25 mm) med tilpassede må
 
 ## Bruk
 
-1. Åpne FreeCAD.
-2. Kjør `import FreeCAD as App.py` fra FreeCADs Python-konsoll eller som et makro-script.
-3. Modellen genereres automatisk og vises i FreeCAD.
+1.  Åpne FreeCAD.
+2a. Kjør `import FreeCAD as App.py` fra FreeCADs Python-konsoll eller som et makro-script.
+2b. Alternativt, copy-paste koden inn i FreeCAD sitt Python-konsoll (View -> Panels -> Python console)
+3.  Modellen genereres automatisk og vises i FreeCAD.
 
 ## Avhengigheter
 

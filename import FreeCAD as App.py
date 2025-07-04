@@ -8,6 +8,7 @@ stand_height = 250  # høyde
 stand_width = 370   # bredde (ytterkant)
 stand_depth = 280   # dybde
 tube_size = 25      # rørdimensjon (25x25 mm firkantrør)
+support_offset = -60  # 2 cm foran de eksisterende vertikale rørene
 
 # Justert dybdeoffset (foran peker nå i negativ Y-retning)
 front_offset = -stand_depth + tube_size
@@ -54,8 +55,6 @@ top_front.translate(App.Vector(0, front_offset, stand_height - tube_size))
 # ------------------------
 # Vektstøtte: Vertikale rør 2 cm foran de eksisterende vertikale rørene, inne i C-formen
 # ------------------------
-
-support_offset = -60  # 2 cm foran de eksisterende vertikale rørene
 
 left_support = Part.makeBox(tube_size, tube_size, stand_height)
 left_support.translate(App.Vector(0, support_offset, 0))
